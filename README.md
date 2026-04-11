@@ -1,4 +1,4 @@
-# haru_up
+# 하루업
 
 A new Flutter project.
 
