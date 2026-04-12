@@ -49,6 +49,7 @@ dependencies:
   # 소셜 로그인
   kakao_flutter_sdk_user: ^1.10.0
   flutter_naver_login: ^2.1.1
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
@@ -73,9 +74,23 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
+    - assets/images/splash/
   #   - images/a_dot_ham.jpeg
+
+flutter_native_splash:
+  android: true
+  color: "#ffffff" # 배경색 (이미지의 배경색과 맞추면 자연스럽습니다)
+  # image: assets/images/splash/haruUp_logo.png # 중앙에 띄울 로고 이미지
+
+  android_12:
+    # image: assets/images/splash/haruUp_logo.png
+    color: "#ffffff"
+
+  # 화면 가득 채우고 싶다면 아래 속성을 추가하지만,
+  # 네이티브 스플래시는 보통 중앙 로고 배치를 권장합니다.
+  fullscreen: true
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

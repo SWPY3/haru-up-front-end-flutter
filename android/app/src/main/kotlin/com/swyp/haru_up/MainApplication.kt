@@ -1,11 +1,9 @@
 package com.swyp.haru_up
 
-import android.app.Application
-import com.kakao.sdk.common.KakaoSdk
+import io.flutter.app.FlutterApplication
 
-class MainApplication : Application() {
+class MainApplication : FlutterApplication() {
     override fun onCreate() {
         super.onCreate()
-        KakaoSdk.init(this, "a22a879bcb46586d971ca49f32388b20")
     }
 }
