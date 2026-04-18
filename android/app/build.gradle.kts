@@ -8,7 +8,7 @@ plugins {
 android {
     compileSdk = 31
 
-    namespace = "com.swyp.haru_up"
+    namespace = "com.swyp.HaruUp"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.swyp.haru_up"
+        applicationId = "com.swyp.HaruUp"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

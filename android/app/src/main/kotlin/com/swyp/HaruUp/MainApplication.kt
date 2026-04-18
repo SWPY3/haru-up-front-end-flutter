@@ -1,4 +1,4 @@
-package com.swyp.haru_up
+package com.swyp.HaruUp
 
 import io.flutter.app.FlutterApplication
 

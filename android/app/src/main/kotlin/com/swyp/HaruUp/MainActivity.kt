@@ -1,4 +1,4 @@
-package com.swyp.haru_up
+package com.swyp.HaruUp
 
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen // 라이브러리 추가 필요
